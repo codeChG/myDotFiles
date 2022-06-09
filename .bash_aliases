@@ -15,3 +15,7 @@
 alias ll='ls -al'
 alias update='sudo pacman -Syu' #update system
 alias cls='clear'
+alias ping='ping -c3'
+alias myip='curl https://ifconfig.me;echo'
+alias off='sudo poweroff'
+
