@@ -17,4 +17,5 @@ alias ping='ping -c3'
 alias myip='curl https://ifconfig.me;echo'
 alias off='sudo poweroff'
 alias reboot='sudo reboot'
+alias sudo='sudo -v; sudo '
 
