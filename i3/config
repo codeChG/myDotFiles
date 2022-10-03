@@ -203,5 +203,7 @@ assign [class="Brave"] $ws3
 for_window [class="VSCodium"] border none
 for_window [class="Brave"] border none
 
+
+exec --no-startup-id feh --bg-scale /home/christian/mywallpaper
 #-----cg-----
 
