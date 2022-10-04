@@ -9,6 +9,7 @@ end
 set -U fish_greeting
 
 # aliases
+alias ls "exa"
 alias ll "exa -lah --icons --git --group-directories-first"
 alias update "sudo pacman -Syu"
 alias cls "clear"
