@@ -22,5 +22,6 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 export PATH="$PATH:~/bin"
 
+eval "$(starship init bash)"
 #neofetch
 pfetch

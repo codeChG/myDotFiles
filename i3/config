@@ -184,6 +184,15 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        colors {
+        background #0353a4
+        statusline #ffffff
+
+        focused_workspace  #ffffff #285577
+        active_workspace   #ffffff #333333
+        inactive_workspace #888888 #0353a4
+        urgent_workspace   #ffffff #900000
+    }
 }
 #-----cg-----
 
@@ -204,6 +213,6 @@ for_window [class="VSCodium"] border none
 for_window [class="Brave"] border none
 
 
-exec --no-startup-id feh --bg-scale /home/christian/mywallpaper
+exec --no-startup-id ~/.fehbg
 #-----cg-----
 

@@ -10,7 +10,7 @@
 #   ___________________________________________________________
 
                                                         
-alias ll='ls -al'
+alias ll='exa -lah --git --group-directories-first'
 alias update='sudo pacman -Syu' #update system
 alias cls='clear'
 alias ping='ping -c3'
