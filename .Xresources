@@ -35,7 +35,7 @@
 *.color7:       #93a1a1
 *.color15:      #fdf6e3
 
-xterm*faceName: FiraCode Nerd Font
-xterm*faceSize: 11
+xterm*faceName: UbuntuMono Nerd Font
+xterm*faceSize: 12
 xterm*renderFont: true
 
