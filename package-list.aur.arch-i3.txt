@@ -1,3 +1,2 @@
 ttf-fixedsys-excelsior-linux
 ttf-ms-fonts
-arc-gtk-theme

@@ -1,1 +1,2 @@
 ttf-ubuntu-mono-nerd
+arc-gtk-theme
