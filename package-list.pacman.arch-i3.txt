@@ -1,2 +1,3 @@
-ttf-ubuntu-mono-nerd
 arc-gtk-theme
+ttf-jetbrains-mono-nerd
+ttf-ubuntu-mono-nerd
