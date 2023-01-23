@@ -4,3 +4,4 @@ ttf-ubuntu-mono-nerd
 lf
 trash-cli
 man
+rofi
