@@ -2,3 +2,4 @@ arc-gtk-theme
 ttf-jetbrains-mono-nerd
 ttf-ubuntu-mono-nerd
 lf
+trash-cli
