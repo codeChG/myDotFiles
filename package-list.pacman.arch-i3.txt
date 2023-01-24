@@ -5,3 +5,4 @@ lf
 trash-cli
 man
 rofi
+feh
