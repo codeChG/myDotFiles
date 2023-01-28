@@ -1,1 +1,6 @@
-git ls-files 		#listet alle getrackten files
+alias dotfiles ="/usr/bin/git --git-dir=$HOME/.mydotfiles --work-tree=$HOME"
+dotfiles config --local status.showUntrackedFiles no
+
+
+
+git ls-files 		#listet alle getrackten file
