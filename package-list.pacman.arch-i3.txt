@@ -6,3 +6,5 @@ trash-cli
 man
 rofi
 feh
+fzf
+neovim
