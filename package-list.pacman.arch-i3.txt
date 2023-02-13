@@ -8,3 +8,6 @@ rofi
 feh
 fzf
 neovim
+mpv
+vifm
+xclip
