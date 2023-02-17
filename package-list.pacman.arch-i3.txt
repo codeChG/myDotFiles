@@ -11,3 +11,4 @@ neovim
 mpv
 vifm
 xclip
+tree
