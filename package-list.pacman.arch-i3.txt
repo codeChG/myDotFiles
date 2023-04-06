@@ -13,3 +13,4 @@ mpv
 vifm
 xclip
 tree
+keepassxc
