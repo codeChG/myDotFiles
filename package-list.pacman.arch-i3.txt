@@ -15,4 +15,4 @@ xclip
 tree
 keepassxc
 btop
-
+bat
