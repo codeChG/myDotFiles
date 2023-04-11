@@ -16,3 +16,4 @@ tree
 keepassxc
 btop
 bat
+lxappearance
