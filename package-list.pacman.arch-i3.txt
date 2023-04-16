@@ -17,3 +17,4 @@ keepassxc
 btop
 bat
 lxappearance
+sxiv

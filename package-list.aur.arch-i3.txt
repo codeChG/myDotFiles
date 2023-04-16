@@ -1,2 +1,4 @@
 ttf-fixedsys-excelsior-linux
 ttf-ms-fonts
+ttf-vista-fonts
+consolas-font
