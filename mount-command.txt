@@ -1,1 +1,1 @@
-sudo mount -t vfat -o umask=013,uid=1000,gid=1000 /dev/sdc1 /mnt/usb
+sudo mount -t vfat -o umask=022,uid=1000,gid=1000 /dev/sdc1 /mnt/usb
