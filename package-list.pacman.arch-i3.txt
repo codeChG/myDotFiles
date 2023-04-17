@@ -18,3 +18,4 @@ btop
 bat
 lxappearance
 sxiv
+fdupes
