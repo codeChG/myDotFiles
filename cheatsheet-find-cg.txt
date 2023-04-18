@@ -1,0 +1,13 @@
+
+
+
+# finde alle Dateien rekursiv,
+# kopiere sie und beim kopieren nicht überschreiben sondern backups 
+#
+find /srcdir -name "*.txt*" ! -name ".*" -type f -exec cp -rv --backup=numbered {} /destdir \;
+
+# setzt fdupes voraus
+# findet alle Duplikate (md5) im aktuellen Verzeichnis und löscht diese, 
+# erhält nur das erste Original (order)
+#
+fdupes --noprompt --delete --order="name" .
