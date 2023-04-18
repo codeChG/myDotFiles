@@ -11,3 +11,11 @@ find /srcdir -name "*.txt*" ! -name ".*" -type f -exec cp -rv --backup=numbered 
 # erhält nur das erste Original (order)
 #
 fdupes --noprompt --delete --order="name" .
+
+
+# Suche mit regex
+# finde alle pdf files mit ._ im Pfad
+# fish-kompatibel ($ am Ende auskommentiert):
+#
+find /home/christian/muttibackup/ -regex "^.*\/\.\_.*\.pdf\$"
+
