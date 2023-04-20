@@ -19,3 +19,4 @@ bat
 lxappearance
 sxiv
 fdupes
+figlet
