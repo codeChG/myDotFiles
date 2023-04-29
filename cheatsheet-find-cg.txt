@@ -23,4 +23,7 @@ find /home/christian/muttibackup/ -regex "^.*\/\.\_.*\.pdf\$"
 # finde alle (versteckten) Directories die mit . beginnen
 # und loesche sie
 #
+find . -regextype sed -regex "^\.\/\..*" -type d -exec rm -rf {} \+
 find . -regextype sed -regex "^\.\/\..*" -type d -exec rm -rf "{}" \+
+find . -regextype sed -regex "^\.\/\..*" -type d -delete
+
