@@ -20,3 +20,4 @@ lxappearance
 sxiv
 fdupes
 figlet
+ttf-fantasque-nerd
