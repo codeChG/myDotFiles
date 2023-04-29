@@ -25,14 +25,12 @@ find /home/christian/muttibackup/ -regex "^.*\/\.\_.*\.pdf\$"
 #
 find . -regextype sed -regex "^\.\/\..*" -type d -exec rm -rf {} \+
 find . -regextype sed -regex "^\.\/\..*" -type d -exec rm -rf "{}" \+
-find . -regextype sed -regex "^\.\/\..*" -type d -delete
 #
 # mit -depth 
-# find traversiert zuerst den Verzeichnis-Baum,
-# beginnt mit den tiefsten Dateien bei der Aufzaehlung,
-#
-# ohne -depth Fehlermeldung, wenn Directories nicht leer,
-# mit -print option zeigt geloeschte Datei(en) und Verzeichnisse
+# listet zuerst Dateien, dann Verzeichnisse!
+# ohne -depth Fehlermeldung, wenn Verzeichnisse nicht leer,
+# löscht also zuerst die Dateien, dann die geleerten Verzeichnisse,
+# mit -print zeigt geloeschte Datei(en) und Verzeichnisse
 #
 find . -depth -regextype sed -regex "^\.\/\..*" -print -delete
 
