@@ -23,3 +23,5 @@ figlet
 ttf-fantasque-nerd
 fd
 bat-extras
+zoxide
+ripgrep
