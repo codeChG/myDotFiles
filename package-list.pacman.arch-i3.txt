@@ -22,3 +22,4 @@ fdupes
 figlet
 ttf-fantasque-nerd
 fd
+bat-extras
