@@ -21,3 +21,4 @@ sxiv
 fdupes
 figlet
 ttf-fantasque-nerd
+fd
