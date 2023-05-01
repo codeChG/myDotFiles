@@ -25,3 +25,4 @@ fd
 bat-extras
 zoxide
 ripgrep
+speedcrunch
