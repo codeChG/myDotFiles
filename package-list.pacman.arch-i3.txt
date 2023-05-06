@@ -26,3 +26,5 @@ bat-extras
 zoxide
 ripgrep
 speedcrunch
+dos2unix
+
