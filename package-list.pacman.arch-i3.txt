@@ -30,4 +30,4 @@ dos2unix
 ntfs-3g
 xfce4-screenshooter
 gpa
-
+rsync
