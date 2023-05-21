@@ -33,4 +33,7 @@ find . -regextype sed -regex "^\.\/\..*" -type d -exec rm -rf "{}" \+
 # mit -print zeigt geloeschte Datei(en) und Verzeichnisse
 #
 find . -depth -regextype sed -regex "^\.\/\..*" -print -delete
+#
+# von chatgpt:
+find . -type f -regextype posix-extended -regex '.*\.pdf'
 
