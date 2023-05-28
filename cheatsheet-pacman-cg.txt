@@ -1,5 +1,0 @@
-loescht package und dependencies die nicht mehr vom System benötigt werden
-pacman -Rs package
-
-downgrade package (hier mesa)
-sudo pacman -U /var/cache/pacman/pkg/mesa-23.0.3-1-x86_64.pkg.tar.zst

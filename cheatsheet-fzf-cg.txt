@@ -1,1 +1,0 @@
-fzf --multi --height=15 --layout default --pointer=" " --marker=" "
