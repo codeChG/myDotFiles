@@ -1,4 +1,2 @@
-
-
 # screenshot per mouse-selection und copy in clipboard 
 xfce4-screenshooter --region --save /dev/stdout | xclip -i -selection clipboard -t image/png
